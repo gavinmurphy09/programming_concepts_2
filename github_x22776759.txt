@@ -1,0 +1,53 @@
+https://github.com/gavinmurphy09/programming_concepts_2/compare/main...AddingExtraFeatures_colour
+
+
+estfile.txt
+
+AFF COMPUTERS@DESKTOP-LEO2U39 MINGW64 ~/Desktop/Web_Design/week6_lab2/git (AddingExtraFeatures_colour)
+$ git status
+On branch AddingExtraFeatures_colour
+Your branch is up to date with 'origin/AddingExtraFeatures_colour'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   testfile.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AFF COMPUTERS@DESKTOP-LEO2U39 MINGW64 ~/Desktop/Web_Design/week6_lab2/git (AddingExtraFeatures_colour)
+$ git add testfile.txt
+warning: in the working copy of 'testfile.txt', LF will be replaced by CRLF the next time Git touches it
+
+AFF COMPUTERS@DESKTOP-LEO2U39 MINGW64 ~/Desktop/Web_Design/week6_lab2/git (AddingExtraFeatures_colour)
+$ git commit -m "committing this file"
+[AddingExtraFeatures_colour 8d155b7] committing this file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+AFF COMPUTERS@DESKTOP-LEO2U39 MINGW64 ~/Desktop/Web_Design/week6_lab2/git (AddingExtraFeatures_colour)
+$ git push - u origin master
+error: src refspec u does not match any
+error: src refspec origin does not match any
+error: failed to push some refs to '-'
+
+AFF COMPUTERS@DESKTOP-LEO2U39 MINGW64 ~/Desktop/Web_Design/week6_lab2/git (AddingExtraFeatures_colour)
+$ git push -u origin clone
+error: src refspec clone does not match any
+error: failed to push some refs to 'https://github.com/gavinmurphy09/programming_concepts_2.git'
+
+AFF COMPUTERS@DESKTOP-LEO2U39 MINGW64 ~/Desktop/Web_Design/week6_lab2/git (AddingExtraFeatures_colour)
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+AFF COMPUTERS@DESKTOP-LEO2U39 MINGW64 ~/Desktop/Web_Design/week6_lab2/git (AddingExtraFeatures_colour)
+$ git push -u origin AddingExtraFeatures_colour
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 280 bytes | 280.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gavinmurphy09/programming_concepts_2.git
+   90d4dcb..8d155b7  AddingExtraFeatures_colour -> AddingExtraFeatures_colour
+branch 'AddingExtraFeatures_colour' set up to track 'origin/AddingExtraFeatures_colour'.
+
+AFF COMPUTERS@DESKTOP-LEO2U39 MINGW64 ~/Desktop/Web_Design/week6_lab2/git (AddingExtraFeatures_colour)
